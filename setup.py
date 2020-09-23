@@ -17,5 +17,20 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    classifiers="",
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Environment :: Console",
+        "Environment :: Web Environment",
+        "Intended Audience :: Education",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: Other Audience",
+        # TODO Add The Unlicense
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Topic :: Education :: Testing",
+        "Topic :: Internet",
+        "Topic :: Security",
+        "Topic :: Utilities",
+    ],
 )
