@@ -3,7 +3,7 @@ import urllib.request
 
 
 class ConnectionController:
-    def __init__(self, model=ConnectionModel()):
+    def __init__(self, host, model=ConnectionModel()):
         self._model = model
         self._host = model.host
 
