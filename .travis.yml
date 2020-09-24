@@ -8,4 +8,4 @@ python:
 install:
   - pip install coverage
 script:
-  - python -m unittest discover tests
+  - coverage run -m unittest discover tests
