@@ -1,4 +1,6 @@
-# HiddenEyeReborn (HE:RE)
+<p align="center">
+    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/blob/master/art/HiddenEyeLogo.svg" width="400">
+</p>
 <p align="center">
     <a href="https://travis-ci.com/github/Open-Security-Group-OSG/HiddenEyeReborn"><img title="Travis CI build" src="https://travis-ci.com/Open-Security-Group-OSG/HiddenEyeReborn.svg?branch=master"></a>
     <a href="https://codecov.io/gh/Open-Security-Group-OSG/HiddenEyeReborn"><img src="https://codecov.io/gh/Open-Security-Group-OSG/HiddenEyeReborn/branch/master/graph/badge.svg" /></a>
