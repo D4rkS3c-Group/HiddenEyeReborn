@@ -16,7 +16,7 @@
     <rect
        x="23.466682"
        y="104.11747"
-       width="678.44928"
+       width="100%"
        height="60.327686"
        id="rect835" />
     <linearGradient
@@ -58,11 +58,11 @@
        xml:space="preserve"
        id="text833"
        style="font-size:50.8px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect835);mix-blend-mode:normal;fill:url(#linearGradient845);fill-opacity:1;"
-       x="64.572083"
+       x="374.51904"
        y="0"
        transform="matrix(0.47273231,0,0,0.47273231,-23.808177,-50.448381)"><tspan
-         x="50.648442"
+         x="371"
          y="150.82883"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:url(#linearGradient845);fill-opacity:1">HiddenEye: Reborn (HE: RE) </tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill-opacity:1">HiddenEye: Reborn (HE: RE) </tspan></tspan></text>
   </g>
 </svg>
