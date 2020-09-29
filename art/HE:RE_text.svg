@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="619.89392mm"
+   height="52.412304mm"
+   viewBox="0 0 619.89392 52.412304"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -18,9 +18,9 @@
   <defs
      id="defs2">
     <rect
-       x="23.466683"
+       x="23.466682"
        y="104.11747"
-       width="678.44931"
+       width="678.44928"
        height="60.327686"
        id="rect835" />
     <linearGradient
@@ -49,7 +49,9 @@
       <rect
          width="560"
          height="500"
-         id="rect85" />
+         id="rect85"
+         x="0"
+         y="0" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -60,8 +62,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="393.7933"
-     inkscape:cy="115.95604"
+     inkscape:cx="1092.4854"
+     inkscape:cy="413.86543"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -70,7 +72,11 @@
      inkscape:window-height="867"
      inkscape:window-x="5"
      inkscape:window-y="5"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -86,14 +92,17 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(184.86229,78.82186)">
     <text
        xml:space="preserve"
        id="text833"
        style="font-size:50.8px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect835);mix-blend-mode:normal;fill:url(#linearGradient845);fill-opacity:1;"
        x="64.572083"
        y="0"
-       transform="translate(-239.70272,-188.89659)"><tspan
+       transform="translate(-239.70272,-188.89659)"
+       inkscape:export-xdpi="167.67818"
+       inkscape:export-ydpi="167.67818"><tspan
          x="50.648442"
          y="150.82883"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:url(#linearGradient845);fill-opacity:1">HiddenEye: Reborn (HE: RE) </tspan></tspan></text>
