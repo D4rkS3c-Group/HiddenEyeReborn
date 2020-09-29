@@ -8,15 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="619.89392mm"
-   height="52.412304mm"
-   viewBox="0 0 619.89392 52.412304"
+   width="293.04388mm"
+   height="24.776989mm"
+   viewBox="0 0 293.04388 24.776989"
    version="1.1"
-   id="svg8"
+   id="svg1504"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="HE:RE_text.svg">
   <defs
-     id="defs2">
+     id="defs1498">
     <rect
        x="23.466682"
        y="104.11747"
@@ -52,25 +52,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1282.5404"
-     inkscape:cy="278.81853"
+     inkscape:zoom="0.7"
+     inkscape:cx="638.74088"
+     inkscape:cy="311.51457"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1588"
-     inkscape:window-height="867"
-     inkscape:window-x="5"
-     inkscape:window-y="5"
-     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     lock-margins="false" />
+     inkscape:window-width="1588"
+     inkscape:window-height="867"
+     inkscape:window-x="5"
+     inkscape:window-y="5"
+     inkscape:window-maximized="0" />
   <metadata
-     id="metadata5">
+     id="metadata1501">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -78,38 +77,21 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title></dc:title>
-        <cc:license
-           rdf:resource="http://artlibre.org/licence/lal" />
       </cc:Work>
-      <cc:License
-         rdf:about="http://artlibre.org/licence/lal">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Notice" />
-        <cc:requires
-           rdf:resource="http://creativecommons.org/ns#Attribution" />
-      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(184.86229,78.82186)">
+     transform="translate(-2.1166682,-1.5875002)">
     <text
        xml:space="preserve"
        id="text833"
        style="font-size:50.8px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect835);mix-blend-mode:normal;fill:url(#linearGradient845);fill-opacity:1;"
        x="64.572083"
        y="0"
-       transform="translate(-239.70272,-188.89659)"
+       transform="matrix(0.47273231,0,0,0.47273231,-23.808177,-50.448381)"
        inkscape:export-xdpi="167.67818"
        inkscape:export-ydpi="167.67818"><tspan
          x="50.648442"
