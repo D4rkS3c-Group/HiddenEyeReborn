@@ -44,15 +44,6 @@
          offset="1"
          id="stop1280" />
     </linearGradient>
-    <clipPath
-       id="_clipPath_riIlSvUFIPGQRh3PUbNk87G0e14LbpME">
-      <rect
-         width="560"
-         height="500"
-         id="rect85"
-         x="0"
-         y="0" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -62,8 +53,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1092.4854"
-     inkscape:cy="413.86543"
+     inkscape:cx="1282.5404"
+     inkscape:cy="278.81853"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -76,7 +67,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     lock-margins="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -86,7 +78,24 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://artlibre.org/licence/lal" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://artlibre.org/licence/lal">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
