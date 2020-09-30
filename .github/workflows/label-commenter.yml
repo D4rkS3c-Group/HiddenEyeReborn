@@ -4,6 +4,11 @@ on:
   issues:
     types:
       - labeled
+      - unlabeled
+  pull_request_target:
+    types:
+      - labeled
+      - unlabeled
 
 jobs:
   comment:
