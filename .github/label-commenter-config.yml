@@ -11,7 +11,7 @@ labels:
       issue:
         body: Thank you for following the template. The repository owner or contributors will reply to you soon.
         action: open
-  - name: forum
+  - name: StackOverflow
     labeled:
       issue:
         body: |
