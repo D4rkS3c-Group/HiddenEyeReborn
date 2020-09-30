@@ -9,7 +9,7 @@ labels:
         action: close
     unlabeled:
       issue:
-        body: Thank you for following the template. The repository owner will reply.
+        body: Thank you for following the template. The repository owner or contributors will reply to you soon.
         action: open
   - name: forum
     labeled:
