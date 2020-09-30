@@ -42,7 +42,7 @@ labels:
   - name: duplicate
     labeled:
       issue:
-        body: This issue already exists.
+        body: This issue already exists. Please look for original one on your own or ask contributor to help you.
         action: close
   - name: good first issue
     labeled:
