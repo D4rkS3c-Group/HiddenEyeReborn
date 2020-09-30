@@ -48,7 +48,7 @@ labels:
     labeled:
       issue:
         body: This issue is easy for contributing. Everyone can work on this.
-  - name: enchancement
+  - name: enhancement
     labeled:
       issue:
         body: Thank you @{{ issue.user.login }} for suggesting this.
