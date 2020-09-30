@@ -17,6 +17,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
+    data_files=[("", ["LICENSE"])],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console",
