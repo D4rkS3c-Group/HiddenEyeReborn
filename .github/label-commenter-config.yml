@@ -29,6 +29,7 @@ labels:
     unlabeled:
       issue:
         body: Thank you for fixing, now we are able to undestand you. The repository owner or contributors will reply to you soon.
+        action: open
   - name: wontfix
     labeled:
       issue:
