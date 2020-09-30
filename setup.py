@@ -12,6 +12,9 @@ setup(
     author=__author__,
     description="I'll write that later",
     python_requires=">=3.6",  # TODO replace with script
+    install_requires=[
+        'pywebcopy',
+    ],
     url="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn",
     license="The Unlicense",
     long_description=long_description,
