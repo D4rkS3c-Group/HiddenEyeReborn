@@ -24,7 +24,7 @@ setup(
         "Intended Audience :: Education",
         "Intended Audience :: Information Technology",
         "Intended Audience :: Other Audience",
-        # TODO Add The Unlicense
+        "License :: OSI Approved :: The Unlicense (Unlicense)",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
