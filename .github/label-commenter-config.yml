@@ -19,16 +19,16 @@ labels:
           While we'd love to be able to support every person on their projects, that would simply be infeasible. Luckily, that's what the helpful developer community over at Stack Overflow is for! Please create a question there with the "hiddeneye" tag if what you're looking for is a programming question or you need help with an integration.
         action: close
   - name: difficult-to-understand
-      labeled:
-        issue:
-          body: |
+    labeled:
+      issue:
+        body: |
             This issue is very difficult to understand.
             While we'd love to be able to support every person on their projects, that would simply be infeasible.
             Please fix your grammar, follow template, replace confusing words, listen to suggestions or ask someone to help you translating to English.
           action: close
-      unlabeled:
-        issue:
-          body: Thank you for fixing, now we are able to undestand you. The repository owner or contributors will reply to you soon.
+    unlabeled:
+      issue:
+        body: Thank you for fixing, now we are able to undestand you. The repository owner or contributors will reply to you soon.
   - name: wontfix
     labeled:
       issue:
