@@ -16,7 +16,7 @@ labels:
       issue:
         body: |
           This is a bug tracker and not a support forum.
-          While we'd love to be able to support every person on their projects, that would simply be infeasible. Luckily, that's what the helpful developer community over at Stack Overflow is for! Please create a question there with the "hiddeneye" tag if what you're looking for is a programming question or you need help with an integration.
+          While we'd love to be able to support every person on their projects, that would simply be infeasible. Luckily, that's what the helpful developer community over at Stack Overflow is for! Please create a question there with the "hiddeneye" tag if what you're looking for is a programming question or you need help.
         action: close
   - name: difficult-to-understand
     labeled:
