@@ -1,26 +1,34 @@
 from setuptools import setup, find_packages
 
+
+# META DATA
 __author__ = "Open Security Group"
 __version__ = "0.0a1.dev1"
+__name__ = "hidden-eye-reborn-OSG"
+__description__ = "I'll write that later"
+__python_requires__ = ">=3.6"
+__install_requires__ = ['pywebcopy', ]
+__license__ = "The Unlicense"
+__data_files__ = [("", ["LICENSE"])]
+__url__ = "https://github.com/Open-Security-Group-OSG/HiddenEyeReborn"
 
 with open("README.md", "r") as readme:
-    long_description = readme.read()
+    __long_description__ = readme.read()
+
 
 setup(
-    name="hidden-eye-reborn-OSG",
+    name=__name__,
     version=__version__,
     author=__author__,
-    description="I'll write that later",
-    python_requires=">=3.6",  # TODO replace with script
-    install_requires=[
-        'pywebcopy',
-    ],
-    url="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn",
-    license="The Unlicense",
-    long_description=long_description,
+    description=__description__,
+    python_requires=__python_requires__,
+    install_requires=__install_requires__,
+    url=__url__,
+    license=__license__,
+    long_description=__long_description__,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    data_files=[("", ["LICENSE"])],
+    data_files=__data_files__,
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console",
