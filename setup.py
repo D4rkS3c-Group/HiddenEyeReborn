@@ -25,7 +25,7 @@ setup(
     url=__url__,
     long_description=__long_description__,
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    packages=find_packages(exclude=("tests",)),
     data_files=__data_files__,
     classifiers=[
         "Development Status :: 1 - Planning",
