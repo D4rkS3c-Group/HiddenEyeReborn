@@ -27,6 +27,12 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=("tests",)),
     data_files=__data_files__,
+    entry_points= {
+        "console_scripts": [
+            'hiddeneye-reborn = HE_RE.HE_RE:main',
+            'hiddeneye = HE_RE.HE_RE:main'
+        ],
+    },
     classifiers=[
         "Development Status :: 1 - Planning",
         "Environment :: Console",
