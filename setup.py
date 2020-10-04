@@ -23,7 +23,6 @@ setup(
     python_requires=__python_requires__,
     install_requires=__install_requires__,
     url=__url__,
-    license=__license__,
     long_description=__long_description__,
     long_description_content_type="text/markdown",
     packages=find_packages(),
