@@ -16,7 +16,7 @@ with open("README.md", "r") as readme:
 
 
 setup(
-    name=__name__,
+    name=__package_name__,
     version=__version__,
     author=__author__,
     description=__description__,
