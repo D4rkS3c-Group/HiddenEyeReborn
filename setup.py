@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 # META DATA
 __author__ = "Open Security Group"
 __version__ = "0.0a1.dev2"
-__name__ = "hiddeneye_reborn"
+__package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
 __python_requires__ = ">=3.6"
 __install_requires__ = ['pywebcopy', ]
