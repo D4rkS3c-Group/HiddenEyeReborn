@@ -1,8 +1,8 @@
 class ConnectionModel:
-    """Provides default values for `ConnectionController()`
 
-    """
+    """Provides default values for `ConnectionController()`"""
     def __init__(self, host: str = "https://google.com"):
+
         """
         Args:
             host: Default URL for connection checking needs.

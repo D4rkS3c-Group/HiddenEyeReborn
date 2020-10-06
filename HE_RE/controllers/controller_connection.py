@@ -3,6 +3,7 @@ import urllib.request
 
 
 class ConnectionController:
+
     """ConnectionController is used to verify, set and toggle connection.
 
     Todo:
@@ -11,7 +12,7 @@ class ConnectionController:
         * Utilize setter and getter for host
     """
     def __init__(self, host, model=ConnectionModel()):
-        """ Utilizes `ConnectionModel()` if custom one not provided.
+        """Utilizes `ConnectionModel()` if custom one not provided.
 
         Args:
             host (str): URL that will be used to verify connection. Defaults to `model.host` if not specified.
@@ -23,7 +24,8 @@ class ConnectionController:
         self._host = host if not None else self._model.host
 
     def verify_connection(self):
-        """Used to verify there is internet connection. Checking URL may be customized using `__init__`
+        """Used to verify there is internet connection.
+        Checking URL may be customized using `__init__`
 
         Returns:
             bool: The return value. True if connected (Status code 200), False otherwise.
