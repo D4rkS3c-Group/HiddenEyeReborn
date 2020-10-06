@@ -25,6 +25,7 @@ class ConnectionController:
 
     def verify_connection(self):
         """Used to verify there is internet connection.
+
         Checking URL may be customized using `__init__`
 
         Returns:
