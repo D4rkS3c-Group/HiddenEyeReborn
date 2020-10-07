@@ -24,9 +24,9 @@ Some of your actions may be **illegal** and you **can not** use this software to
 
 ## Installation
 `HE: RE` is available on PyPI and can be installed using pip:
-*TO-DO upload to pypi*
-or conda:
-*here goes command*
+```sh
+pip install hiddeneye-reborn
+```
 That's all it takes! HE: RE is now available as a terminal command or as a package to your projects.
 
 ## Basic Usage
