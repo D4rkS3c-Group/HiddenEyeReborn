@@ -14,16 +14,16 @@
     <a href="https://www.python.org/dev/peps/pep-0008/"><img title="PEP8" src="https://img.shields.io/badge/code%20style-pep8-blue.svg"></a>
 </p>
 
-HiddenEye: Reborn is my second try on doing multi-featured tool for human mistakes exploitation. 
-Currently, HE: RE has mainly phishing features. But we are planning on adding more, you can follow development progress by looking at (*REMIND ME TO DO ROADMAP*) or Projects Tab on GitHub
+`HiddenEye: Reborn` is my second try on doing multi-featured tool for human mistakes exploitation. 
+Currently, `HE: RE` has mainly phishing features. But we are planning on adding more, you can follow development progress by looking at (*REMIND ME TO DO ROADMAP*) or Projects Tab on GitHub
 
 ## Disclaimer
-The use of the HiddenEye: Reborn and/or its resources is **complete responsibility** of the **end-user**.
-Developers assume **no liabiity** and are **not responsible** for any misuse or damage caused by HiddenEye: Reborn. 
+The use of the `HiddenEye: Reborn` and/or its resources is **complete responsibility** of the **end-user**.
+Developers assume **no liabiity** and are **not responsible** for any misuse or damage caused by `HiddenEye: Reborn`. 
 Some of your actions may be **illegal** and you **can not** use this software to test someone without **written permission** from person or company.
 
 ## Installation
-HE: RE is available on PyPI and can be installed using pip:
+`HE: RE` is available on PyPI and can be installed using pip:
 *TO-DO upload to pypi*
 or conda:
 *here goes command*
@@ -37,7 +37,7 @@ That's all it takes! HE: RE is now available as a terminal command or as a packa
 https://hiddeneye-reborn.readthedocs.io
 
 ## FAQ
-**Q:** Why original HiddenEye is no longer maintained?
+**Q:** Why original `HiddenEye` is no longer maintained?
 
 **A:** Due to low quality and bad practices used in code.
 ##
