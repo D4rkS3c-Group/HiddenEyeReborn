@@ -43,10 +43,12 @@ setup(
         "License :: OSI Approved :: The Unlicense (Unlicense)",
         "Natural Language :: English",
         "Operating System :: OS Independent",
-        "Programming Language :: Python",
         "Topic :: Education :: Testing",
         "Topic :: Internet",
         "Topic :: Security",
         "Topic :: Utilities",
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
 )
