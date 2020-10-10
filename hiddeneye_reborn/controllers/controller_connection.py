@@ -1,4 +1,4 @@
-from HE_RE.models.model_connection import ConnectionModel
+from hiddeneye_reborn.models.model_connection import ConnectionModel
 import urllib.request
 
 
