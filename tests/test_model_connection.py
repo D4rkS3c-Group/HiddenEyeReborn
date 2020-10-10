@@ -1,5 +1,5 @@
 import unittest
-import HE_RE.models.model_connection as model_connection
+import hiddeneye_reborn.models.model_connection as model_connection
 
 
 class ConnectionModelTests(unittest.TestCase):
