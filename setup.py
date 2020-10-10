@@ -29,8 +29,8 @@ setup(
     data_files=__data_files__,
     entry_points= {
         "console_scripts": [
-            'hiddeneye-reborn = HE_RE.HE_RE:main',
-            'hiddeneye = HE_RE.HE_RE:main'
+            'hiddeneye-reborn = hiddeneye_reborn.hiddeneye_reborn:main',
+            'hiddeneye = hiddeneye_reborn.hiddeneye_reborn:main'
         ],
     },
     classifiers=[
