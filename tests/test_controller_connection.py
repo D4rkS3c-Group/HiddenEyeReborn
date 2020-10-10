@@ -1,5 +1,5 @@
 import unittest
-from HE_RE.controllers.controller_connection import ConnectionController
+from hiddeneye_reborn.controllers.controller_connection import ConnectionController
 
 
 class ConnectionControllerTests(unittest.TestCase):
