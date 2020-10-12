@@ -1,13 +1,15 @@
 from setuptools import setup, find_packages
 
+import hiddeneye_reborn
 
 # META DATA
 __author__ = "Open Security Group"
-__version__ = "0.0a1.dev3"
+# TODO add author email to get rid of warning
+__version__ = hiddeneye_reborn.__version__
 __package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
 __python_requires__ = ">=3.6.*"
-__install_requires__ = ['pywebcopy', ]
+__install_requires__ = ['pywebcopy','py7zr' ]
 __data_files__ = [("", ["LICENSE"])]
 __url__ = "https://github.com/Open-Security-Group-OSG/HiddenEyeReborn"
 
