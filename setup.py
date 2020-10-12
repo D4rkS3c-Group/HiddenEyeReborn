@@ -1,9 +1,10 @@
 from setuptools import setup, find_packages
 
+import hiddeneye_reborn
 
 # META DATA
 __author__ = "Open Security Group"
-__version__ = "0.0a1.dev3"
+__version__ = hiddeneye_reborn.__version__
 __package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
 __python_requires__ = ">=3.6.*"
