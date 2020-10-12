@@ -4,6 +4,7 @@ import hiddeneye_reborn
 
 # META DATA
 __author__ = "Open Security Group"
+# TODO add author email to get rid of warning
 __version__ = hiddeneye_reborn.__version__
 __package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
