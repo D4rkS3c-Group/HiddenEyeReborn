@@ -49,6 +49,11 @@ https://hiddeneye-reborn.readthedocs.io
 There are multiple examples of legal usage of this tool, such as people willing to improve their workflow by testing/educating their employees or collegues and educating them about human vulnerabilities social engineers may use.
 ##
 
+**Q:** Why are developers so slow? Why isn't anyone updating it?
+
+**A:** Community doesn't generate any revenue and developer can't afford to eat while working on this software, if you want opensource software to be developed - support developers.
+##
+
 ## Contributing
 *to be written*
 
