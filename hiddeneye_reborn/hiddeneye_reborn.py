@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+
+import argparse
+
+
+def initialize_arguments():
+    parser = argparse.ArgumentParser()
+    parser.parse_args()
+
 
 def main():
     print("Success, you can access this via terminal!")
@@ -5,4 +14,5 @@ def main():
 
 
 if __name__ == "__main__":
+    initialize_arguments()
     main()
