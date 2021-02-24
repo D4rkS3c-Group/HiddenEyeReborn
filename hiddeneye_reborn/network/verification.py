@@ -1,14 +1,30 @@
-import urllib
+from urllib.error import HTTPError, URLError
+import urllib.request
+import logging
 
-
-def verify_connection(url: str=None):
+def verify_connection(url: str=None, timeout: float=None):
     """Used to verify internet connection.
 
     Args:
         url (str): Specify custom url to ping
-
+        timeout (float): Specify verification timeout
     Returns:
         bool: True if connection is available, False otherwise.
     """
-    verification_url = url if not None else "https://google.com"
-    return True if urllib.request.urlopen(url=verification_url).getcode() == 200 else False
+    verification_url = url if url is not None else str("https://google.com")
+    verification_timeout = timeout if timeout is not None else 10
+    try:
+        url_code = urllib.request.urlopen(url=verification_url, timeout=float(verification_timeout)).getcode()
+    except(HTTPError, URLError) as error:
+        logging.error(f'Unable to verify connection with {verification_url} due to {error}, returning False')
+        return False
+    except timeout:
+        logging.error(f'Connection to {verification_url} timed out, returing False')
+    else:
+        logging.info('Connected, checking code...')
+        if url_code == 200:
+            return True
+            logging.info("Verified successfully!")
+            return True
+
+
