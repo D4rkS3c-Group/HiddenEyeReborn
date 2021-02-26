@@ -51,4 +51,4 @@ labels:
   - name: enhancement
     labeled:
       issue:
-        body: Thank you @{{ issue.user.login }} for suggesting this.
+        body: Thank you for suggesting this.
