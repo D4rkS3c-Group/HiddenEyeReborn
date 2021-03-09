@@ -18,6 +18,10 @@
 `HiddenEye: Reborn` is my second try on doing multi-featured tool for human mistakes exploitation. 
 Currently, `HE: RE` has mainly phishing features. But we are planning on adding more, you can follow development progress by looking at (*REMIND ME TO DO ROADMAP*) or Projects Tab on GitHub
 
+## This is still in development!
+`HiddenEye: Reborn` is currently not functional and is still in development.
+Please consider contributing to speed up development!
+
 ## Disclaimer
 The use of the `HiddenEye: Reborn` and/or its resources is **complete responsibility** of the **end-user**.
 Developers assume **no liabiity** and are **not responsible** for any misuse or damage caused by `HiddenEye: Reborn`. 
