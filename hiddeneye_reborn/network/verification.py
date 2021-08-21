@@ -1,3 +1,5 @@
+"""Network verification module"""
+
 from urllib.error import HTTPError, URLError
 import urllib.request
 import logging
