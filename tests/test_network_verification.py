@@ -15,5 +15,7 @@ class ConnectionControllerTests(unittest.TestCase):
         self.assertFalse(verify_connection(url="https://asdasdasdsad.com", timeout=11.11))
         self.assertFalse(verify_connection(url="https://ffftgrrererer.com", timeout=12.22))
         self.assertFalse(verify_connection(url="https://git1svnhsdsgthr.com", timeout=13.33))
+        self.assertFalse(verify_connection(url="https://10.255.255.1", timeout=5))
+
 if __name__ == '__main__':
     unittest.main()
