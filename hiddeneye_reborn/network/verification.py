@@ -16,10 +16,10 @@ def verify_connection(url: str=None, timeout: float=None):
     try:
         url_code = urllib.request.urlopen(url=verification_url, timeout=float(verification_timeout)).getcode()
     except(HTTPError, URLError) as error:
-        logging.warning(f'Unable to verify connection with {verification_url} due to {error}, returning False')
+        logging.warning('Unable to verify connection with %s due to %s, returning False', verification_url, error)
         return False
     except timeout:
-        logging.warning(f'Connection to {verification_url} timed out, returing False')
+        logging.warning('Connection to %s timed out, returing False', verification_url )
     else:
         logging.info('Connected, checking code...')
         if url_code == 200:
