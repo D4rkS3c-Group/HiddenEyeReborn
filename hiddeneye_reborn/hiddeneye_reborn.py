@@ -16,9 +16,9 @@ def initialize_app():
 
 
 def main():
-    print("Success, you can access this via terminal!")
     print("Hey, if you can - contact that lazy developer and make him code! Would be glad if you contribute, as well...")
     set_logging_config(level=LOGGING_LEVEL)
+    log.info("Success, you can access this via terminal!")
     log.debug("Logging level set to %s", LOGGING_LEVEL)
     verify_connection()
 
