@@ -9,7 +9,7 @@ __version__ = hiddeneye_reborn.__version__
 __package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
 __python_requires__ = ">=3.6.*"
-__install_requires__ = ['pywebcopy','py7zr' ]
+__install_requires__ = ['pywebcopy', 'py7zr', 'pyyaml', 'rich' ]
 __data_files__ = [("", ["LICENSE"])]
 __url__ = "https://github.com/Open-Security-Group-OSG/HiddenEyeReborn"
 
