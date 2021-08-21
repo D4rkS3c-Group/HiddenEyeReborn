@@ -26,9 +26,7 @@ def verify_connection(url: str=None, timeout: float=None):
         return False
     except timeout:
         logging.warning('Connection to %s timed out, returing False', verification_url )
-    else:
-        logging.info('Connected, checking code...')
-        else:
-            logging.warning('Wrong code, returning False')
+        return False
+    logging.info('Connected, checking code...')
 
-
+        
