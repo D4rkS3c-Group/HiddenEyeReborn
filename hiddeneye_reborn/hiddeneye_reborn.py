@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from app_logging.default_logging import logging, log, set_logging_config
 from network.verification import verify_connection
+from rich.traceback import install
 
 
 import argparse
@@ -9,6 +10,7 @@ import argparse
 LOGGING_LEVEL = logging.DEBUG
 
 def initialize_app():
+    install(show_locals=True, width=148)
     parser = argparse.ArgumentParser()
     parser.parse_args()
 
