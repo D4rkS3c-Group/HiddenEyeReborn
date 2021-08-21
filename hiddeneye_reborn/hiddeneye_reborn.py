@@ -24,5 +24,5 @@ def main():
 
 
 if __name__ == "__main__":
-    initialize_arguments()
+    initialize_app()
     main()
