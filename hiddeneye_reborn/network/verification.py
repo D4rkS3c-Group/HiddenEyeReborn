@@ -27,5 +27,7 @@ def verify_connection(url: str=None, timeout: float=None):
         if url_code == 200:
             logging.info("Verified successfully!")
             return True
+        else:
+            logging.warning('Wrong code, returning False')
 
 
