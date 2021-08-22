@@ -42,7 +42,7 @@ jobs:
         run: python -m pip install --upgrade twine
       
       - name: Set VAR_VERSION
-        run: echo "VAR_VERSION=$(cat hiddeneye_reborn/__init__.py | grep version | cut -d= -f2- | tr -d '"')" >> $GITHUB_ENV
+        run: echo "VAR_VERSION=$(cat hiddeneye_reborn/__init__.py | grep version | cut -d= -f2- | tr -d '"' | tr -d "[:blank:]")" >> $GITHUB_ENV
         
       - name: Test VAR_VERSION
         run: echo $VAR_VERSION
