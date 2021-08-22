@@ -54,6 +54,11 @@ jobs:
         with:
           name: hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
           path: dist/hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: hiddeneye_reborn-${{env.VAR_VERSION}}.tar.gz
+          path: dist/hiddeneye_reborn-${{env.VAR_VERSION}}.tar.gz
           
       
 
