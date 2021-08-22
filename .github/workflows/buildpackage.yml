@@ -47,16 +47,14 @@ jobs:
       - name: Test VAR_VERSION
         run: echo $VAR_VERSION
         
-      - uses: actions/checkout@v2
       - name: Build Package
         run: python -m build
-  
-      - uses: actions/upload-artifact@v2
+      
       - name: Upload Wheel Package
+      - uses: actions/upload-artifact@v2
         with:
           name: hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
           path: dist/hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
-        run: echo 'Done Uploading'
           
       
 
