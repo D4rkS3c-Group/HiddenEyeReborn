@@ -47,5 +47,6 @@ jobs:
           python -m build
           cat hiddeneye_reborn/__init__.py | grep version | cut -d= -f2- | tr -d '"' > VAR_VERSION
           export VAR_VERSION=`cat VAR_VERSION`
-          echo $VAR_VERSION
+          echo ${{ env.VAR_VERSION}}
+
 
