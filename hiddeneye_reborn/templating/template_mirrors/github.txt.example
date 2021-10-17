@@ -1,0 +1,20 @@
+# This is an example of template_mirrors file
+TEMPLATE: Github
+0.0.1 - https://example.com/github001.zip
+0.2.1 - https://example.com/github021.zip
+3.0.1 - https://example.com/github301.zip
+
+TEMPLATE: Gmail
+0.3.1 - https://example.com/gmail031.zip
+2.2.8 - https://example.com/gmail228.zip
+3.6.9 - https://example.com/gmail369.zip
+
+# You can also specify multiple sources for the same version of file and it will try to use all of those sources together, example:
+
+TEMPLATE: Facebook
+9.3.2 - https://example.com/facebook932.zip
+9.3.2 - https://not-an-example.com/facebook932.zip
+9.3.2 - https://just-whatever.com/facebook932.zip
+1.5.8 - http://bruh-bruh.red/whatever/lol/facebook1.5.8.zip
+
+# Link doesn't have to contain archive name but ARCHIVE NAME SHOULD FOLLOW CONVENTION - template_nameVERSIONWITHOUTDOTS.zip or hashes will be wrong!
