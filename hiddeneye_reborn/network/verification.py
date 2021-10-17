@@ -25,4 +25,3 @@ def verify_connection(url: str=None, timeout: float=None):
     except(HTTPError, URLError) as error:
         logging.warning('Unable to verify connection with %s due to %s, returning False', verification_url, error)
         return False
-    

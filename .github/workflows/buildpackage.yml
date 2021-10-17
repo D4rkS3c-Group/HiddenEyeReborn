@@ -1,0 +1,65 @@
+# This is a basic workflow to help you get started with Actions
+
+name: BuildPackage
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+  - cron: "0 4 * * 1-5"
+  
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  Build_and_Upload_Artifacts:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    env:
+      OS: ubuntu-latest
+      PYTHON: '3.9'
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: |
+          pip install coverage
+          coverage run -m unittest discover tests
+
+      - name: Install and update build
+        run: python -m pip install --upgrade build
+        
+      - name: Install and update twine
+        run: python -m pip install --upgrade twine
+      
+      - name: Set VAR_VERSION
+        run: echo "VAR_VERSION=$(cat hiddeneye_reborn/__init__.py | grep version | cut -d= -f2- | tr -d '"' | tr -d "[:blank:]")" >> $GITHUB_ENV
+        
+      - name: Test VAR_VERSION
+        run: echo $VAR_VERSION
+        
+      - name: Build And Upload Packages
+        run: python -m build
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
+          path: dist/hiddeneye_reborn-${{env.VAR_VERSION}}-py3-none-any.whl
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: hiddeneye_reborn-${{env.VAR_VERSION}}.tar.gz
+          path: dist/hiddeneye_reborn-${{env.VAR_VERSION}}.tar.gz
+          
+      
+
+
