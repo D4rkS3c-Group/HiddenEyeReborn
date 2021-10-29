@@ -1,2 +1,2 @@
 # TODO Write DocString
-__version__ = "0.0a1.dev7"
+__version__ = "0.0a1.dev8"
