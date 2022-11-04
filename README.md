@@ -1,8 +1,8 @@
 <p align="center">
-    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/master/art/HiddenEyeLogo.svg" width="400">
+    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/main/art/HiddenEyeLogo.svg" width="400">
 </p>
 <p align="center">
-    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/master/art/HE:RE_text.svg" width="635">
+    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/main/art/HE:RE_text.svg" width="635">
 </p>
 <p align="center">
     <a href="https://badge.fury.io/py/hiddeneye-reborn"><img src="https://badge.fury.io/py/hiddeneye-reborn.svg" alt="PyPI version" height="18"></a>

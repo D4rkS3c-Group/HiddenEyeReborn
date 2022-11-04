@@ -1,7 +1,7 @@
 import unittest
 from hiddeneye_reborn.network.verification import verify_connection
 
-class ConnectionControllerTests(unittest.TestCase):
+class NetworkVerificationTests(unittest.TestCase):
     def test_verify_connection(self):
         self.assertTrue(verify_connection(url="https://google.com"))
         self.assertTrue(verify_connection(url="https://firefox.com"))

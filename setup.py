@@ -9,7 +9,7 @@ __version__ = hiddeneye_reborn.__version__
 __package_name__ = "hiddeneye_reborn"
 __description__ = "Appropriate Phishing Tool"
 __python_requires__ = ">=3.6.*"
-__install_requires__ = ['pywebcopy', 'py7zr', 'pyyaml', 'rich' ]
+__install_requires__ = ['pywebcopy', 'pyyaml', 'rich']
 __data_files__ = [("", ["LICENSE"])]
 __url__ = "https://github.com/Open-Security-Group-OSG/HiddenEyeReborn"
 
@@ -29,10 +29,10 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=("tests",)),
     data_files=__data_files__,
-    entry_points= {
+    entry_points={
         "console_scripts": [
-            'hiddeneye-reborn = hiddeneye_reborn.hiddeneye_reborn:main',
-            'hiddeneye = hiddeneye_reborn.hiddeneye_reborn:main'
+            'hiddeneye-reborn = hiddeneye_reborn.hiddeneye:execute',
+            'hiddeneye = hiddeneye_reborn.hiddeneye:execute'
         ],
     },
     classifiers=[
@@ -52,5 +52,8 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
 )
