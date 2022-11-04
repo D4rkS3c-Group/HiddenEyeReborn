@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from app_logging.default_logging import logging, log, set_logging_config
+from logging.default_logging import logging, log, set_logging_config
 from core.text_interface.main import args
 
 from network.verification import verify_connection
