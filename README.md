@@ -41,6 +41,10 @@ https://hiddeneye-reborn.readthedocs.io
 **Q:** Why original `HiddenEye` is no longer maintained?
 
 **A:** Due to low quality and bad practices used in code.
+
+**Q:** Original `HiddenEye` had more tunelling options, why most of them aren't available anymore?
+
+**A:** Time changes, and with time providers got smarter, most are closed or changed the way they worked, but no need to be upset about it because we'll always find new ones.
 ##
 
 **Q:** Is there any example usages for this tool?
