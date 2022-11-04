@@ -21,7 +21,7 @@ def main():
     log.info("THIS IS NOT PRODUCTION READY, STOP MAKING USELESS ISSUES PLEASE")
     log.debug("Logging level set to %s", LOGGING_LEVEL)
     verify_connection()
-    log.info("Non-interactive mode set to %s", args.non_interactive)
+    log.debug("Non-interactive mode set to %s", args.non_interactive)
 
 
 if __name__ == "__main__":
