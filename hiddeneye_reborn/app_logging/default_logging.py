@@ -1,6 +1,7 @@
 import logging.config
 from rich.logging import RichHandler
 
+
 def set_logging_config(level: int = None, filename: str = "default.log"):
     logging_level = logging.NOTSET
     if level == 10:
@@ -23,5 +24,6 @@ def set_logging_config(level: int = None, filename: str = "default.log"):
                             RichHandler(show_time=False, show_level=False, omit_repeated_times=False, rich_tracebacks=True)
                         ]
 )
+
 
 log = logging.getLogger(__name__)

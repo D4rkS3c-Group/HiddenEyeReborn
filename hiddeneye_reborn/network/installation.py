@@ -1,6 +1,7 @@
 import logging
 from subprocess import Popen, PIPE, DEVNULL
 
+
 def check_dependency(name: str, command: str = 'which'):
     try:
         dependency_state = Popen([f"{command}", f"{name}"], stdout=PIPE, stderr=DEVNULL).communicate()[0].decode('utf-8')

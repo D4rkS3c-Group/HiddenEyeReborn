@@ -5,7 +5,7 @@ import urllib.request
 import logging
 
 
-def verify_connection(url: str=None, timeout: float=None):
+def verify_connection(url: str = None, timeout: float = None):
     """Used to verify internet connection.
 
     Args:

@@ -9,6 +9,7 @@ import argparse
 
 LOGGING_LEVEL = logging.DEBUG
 
+
 def initialize_app():
     install(show_locals=True, width=148)
     parser = argparse.ArgumentParser()
