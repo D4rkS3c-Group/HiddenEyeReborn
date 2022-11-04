@@ -29,10 +29,10 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=("tests",)),
     data_files=__data_files__,
-    entry_points= {
+    entry_points={
         "console_scripts": [
-            'hiddeneye-reborn = hiddeneye_reborn.hiddeneye_reborn:main',
-            'hiddeneye = hiddeneye_reborn.hiddeneye_reborn:main'
+            'hiddeneye-reborn = hiddeneye_reborn.hiddeneye:execute',
+            'hiddeneye = hiddeneye_reborn.hiddeneye:execute'
         ],
     },
     classifiers=[

@@ -49,6 +49,5 @@ twine==3.2.0
 urllib3==1.25.10
 w3lib==1.22.0
 webencodings==0.5.1
-
 setuptools~=60.2.0
 rich~=12.6.0
