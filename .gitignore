@@ -133,3 +133,5 @@ dmypy.json
 
 .pylintrc
 VAR_VERSION
+/pywebcopy_workflow/*
+

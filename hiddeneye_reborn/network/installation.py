@@ -1,5 +1,5 @@
-import logging
 from subprocess import Popen, PIPE, DEVNULL
+# TODO move to verification, use this file for non-py dependencies instead
 
 
 def check_dependency(name: str, command: str = 'which'):

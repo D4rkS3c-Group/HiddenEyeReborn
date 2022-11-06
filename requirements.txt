@@ -26,7 +26,6 @@ Pygments==2.7.1
 pyparsing==2.4.7
 pyquery==1.4.1
 pytz==2020.1
-pywebcopy==6.3.0
 readme-renderer==26.0
 requests==2.24.0
 requests-toolbelt==0.9.1
