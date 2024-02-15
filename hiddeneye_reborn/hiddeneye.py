@@ -3,6 +3,8 @@ from .logs.default_logging import logging, log, configure_logging
 from .core.text_interface.main import args
 from .network.verification import verify_connection
 
+from .network.server import WebServer
+
 from rich.traceback import install
 
 LOGGING_LEVEL = logging.DEBUG
@@ -30,6 +32,10 @@ def log_info_multiple_messages(messages):
 def run_app():
     initialize_app()
     configure_and_log_app()
+
+    # testing stuff:
+    server = WebServer(port=8080, host="localhost")
+    server.serve(directory="hiddeneye_reborn/public")
 
 
 if __name__ == "__main__":
