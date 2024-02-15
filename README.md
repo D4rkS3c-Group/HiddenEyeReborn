@@ -2,7 +2,7 @@
     <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/main/art/HiddenEyeLogo.svg" width="400">
 </p>
 <p align="center">
-    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/main/art/HE:RE_text.svg" width="635">
+    <img src="https://github.com/Open-Security-Group-OSG/HiddenEyeReborn/raw/main/art/HE:RE_text.svg" width="720">
 </p>
 <p align="center">
     <a href="https://badge.fury.io/py/hiddeneye-reborn"><img src="https://badge.fury.io/py/hiddeneye-reborn.svg" alt="PyPI version" height="18"></a>
@@ -15,49 +15,46 @@
     <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hiddeneye-reborn">
 </p>
 
-`HiddenEye: Reborn` is my second try on doing multi-featured tool for human mistakes exploitation. 
-Currently, `HE: RE` has mainly phishing features. But we are planning on adding more, you can follow development progress by looking at (*REMIND ME TO DO ROADMAP*) or Projects Tab on GitHub
+## Introduction
+
+The `HiddenEye: Reborn` tool is a project aimed at exploiting human errors. As my second attempt at creating a comprehensive tool for this purpose, it presently has numerous phishing features. We intend to add more functionalities soon. Keep up with our progress by checking out our [roadmap] (*insert link of roadmap here*) or the Projects Tab on our GitHub page. 
 
 ## Disclaimer
-The use of the `HiddenEye: Reborn` and/or its resources is **complete responsibility** of the **end-user**.
-Developers assume **no liabiity** and are **not responsible** for any misuse or damage caused by `HiddenEye: Reborn`. 
-Some of your actions may be **illegal** and you **can not** use this software to test someone without **written permission** from person or company.
+
+**Please Note**: The utilization of `HiddenEye: Reborn` and its resources lies entirely with the end user. The developers of this tool assume no liability and are not responsible for any misuse or damage resulting from it. Ensure you have explicit written permission from the intended party before conducting any testing, as some actions may be illegal. 
 
 ## Installation
-`HE: RE` is available on PyPI and can be installed using pip:
+
+You can easily install `HE: RE` on PyPI using pip: 
 ```sh
 pip install hiddeneye-reborn
 ```
-That's all it takes! HE: RE is now available as a terminal command or as a package to your projects.
+Just like that, `HE: RE` is ready for use as a terminal command and can also be added as a package to your projects. 
 
 ## Basic Usage
+
 *to be written*
+
 
 ## Documentation
-*to be written*
-https://hiddeneye-reborn.readthedocs.io
+
+Our complete and comprehensive documentation is being compiled and will be available soon. Visit our documentation frequently for updates. [Hidden Eye Reborn Docs](https://hiddeneye-reborn.readthedocs.io)
 
 ## FAQ
-**Q:** Why original `HiddenEye` is no longer maintained?
 
-**A:** Due to low quality and bad practices used in code.
+**Q: Why is the original `HiddenEye` no longer maintained?**  
+A: The original `HiddenEye` was phased out due to bad practices and low quality in the code.  
 
-**Q:** Original `HiddenEye` had more tunelling options, why most of them aren't available anymore?
+**Q: I noticed the original `HiddenEye` had more tunneling options. Why aren't most of them available anymore?**  
+A: As technology evolves, providers adapt. Some of these options are now obsolete or have changed the way they work. But don't worry, we'll always find new ones as they become available. 
 
-**A:** Time changes, and with time providers got smarter, most are closed or changed the way they worked, but no need to be upset about it because we'll always find new ones.
-##
+**Q: Are there any example uses for this tool?**  
+A: The usage entirely depends on the user. We disclaim liability for any actions taken by users. However, numerous legal uses for this tool include testing employees or colleagues to educate them about potential vulnerabilities, which social engineers could exploit. 
 
-**Q:** Is there any example usages for this tool?
-
-**A:** This is just a tool, and it's up to you how to use it. That's why we take no liability for your actions. 
-There are multiple examples of legal usage of this tool, such as people willing to improve their workflow by testing/educating their employees or collegues and educating them about human vulnerabilities social engineers may use.
-##
-
-**Q:** Why are developers so slow? Why isn't anyone updating it?
-
-**A:** Community doesn't generate any revenue and developer can't afford to eat while working on this software, if you want opensource software to be developed - support developers.
-##
+**Q: Why are there slow updates from the developers?**   
+A: As an open-source software, the community does not generate revenue. Our developers need to balance their time between financial stability and updating `HE: RE`. If you want to see the software develop further, consider supporting the developers!
 
 ## Contributing
+
 *to be written*
 
