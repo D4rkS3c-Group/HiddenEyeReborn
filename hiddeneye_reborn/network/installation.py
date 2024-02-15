@@ -2,10 +2,11 @@ import logging
 from subprocess import Popen, PIPE, DEVNULL
 
 
-def check_dependency(name: str, command: str = 'which'):
+def is_dependency_installed(name: str, command: str = 'which'):
     try:
-        dependency_state = Popen([f"{command}", f"{name}"], stdout=PIPE, stderr=DEVNULL).communicate()[0].decode('utf-8')
-    except ValueError():
-        dependency_state = None
+        command_output = Popen([command, name], stdout=PIPE, stderr=DEVNULL).communicate()[0]
+        dependency_path = command_output.decode('utf-8')
+    except ValueError:
+        dependency_path = ""
 
-    return True if name in dependency_state else False
+    return name in dependency_path
