@@ -1,29 +1,40 @@
 import logging
 from rich.logging import RichHandler
+from rich.console import Console
+from rich.theme import Theme
+
+LOG_LEVELS = {
+    10: logging.DEBUG,
+    20: logging.INFO,
+    30: logging.WARNING,
+    40: logging.ERROR,
+    50: logging.CRITICAL
+}
+
+theme = Theme({"DEBUG": "dim cyan", "INFO": "green", "WARNING": "yellow", "ERROR": "red", "CRITICAL": "bold red",})
+console = Console(theme=theme)
+
+# Constants
+DEFAULT_LOG_FILENAME = "default.log"
+LOG_FORMAT = "%(message)s"
 
 
-def set_logging_config(level: int = None, filename: str = "default.log"):
-    logging_level = logging.NOTSET
-    if level == 10:
-        logging_level = logging.DEBUG
-    elif level == 20:
-        logging_level = logging.INFO
-    elif level == 30:
-        logging_level = logging.WARNING
-    elif level == 40:
-        logging_level = logging.ERROR
-    elif level == 50:
-        logging_level = logging.CRITICAL
-    else:
-        logging_level = logging.NOTSET
 
-    logging.basicConfig(level=logging_level,
-                        format="%(asctime)s [%(levelname)s] %(message)s",
-                        handlers=[
-                            logging.FileHandler(filename),
-                            RichHandler(show_time=False, show_level=False, omit_repeated_times=False, rich_tracebacks=True)
-                        ]
-)
-
+def configure_logging(level: int = None, filename: str = DEFAULT_LOG_FILENAME):
+    expected_logging_level = LOG_LEVELS.get(level, logging.NOTSET)
+    logging.basicConfig(
+        level=expected_logging_level,
+        format=LOG_FORMAT,
+        handlers=[
+            logging.FileHandler(filename),
+            RichHandler(
+                console=console,
+                show_time=True,
+                show_level=True,
+                omit_repeated_times=False,
+                rich_tracebacks=True
+            )
+        ]
+    )
 
 log = logging.getLogger(__name__)
