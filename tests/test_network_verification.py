@@ -1,21 +1,35 @@
 import unittest
 from hiddeneye_reborn.network.verification import verify_connection
 
+DEFAULT_TIMEOUT = 10
+TEST_CASES_TRUE = [
+    "https://google.com",
+    "https://firefox.com",
+    "https://github.com",
+]
+
+TEST_CASES_FALSE = [
+    "https://asdasdasdsad.com",
+    "https://ffftgrrererer.com",
+    "https://git1svnhsdsgthr.com",
+    "https://10.255.255.1",
+    "https://google",    # missing domain
+    "google.com",        # missing protocol
+    "",                  # empty string
+    "ftp://github.com",  # non-http/https URL
+]
+
+
 class NetworkVerificationTests(unittest.TestCase):
     def test_verify_connection(self):
-        self.assertTrue(verify_connection(url="https://google.com"))
-        self.assertTrue(verify_connection(url="https://firefox.com"))
-        self.assertTrue(verify_connection(url="https://github.com"))
-        self.assertTrue(verify_connection(url="https://google.com", timeout=11.11))
-        self.assertTrue(verify_connection(url="https://firefox.com", timeout=12.22))
-        self.assertTrue(verify_connection(url="https://github.com", timeout=13.33))
-        self.assertFalse(verify_connection(url="https://asdasdasdsad.com"))
-        self.assertFalse(verify_connection(url="https://ffftgrrererer.com"))
-        self.assertFalse(verify_connection(url="https://git1svnhsdsgthr.com"))
-        self.assertFalse(verify_connection(url="https://asdasdasdsad.com", timeout=11.11))
-        self.assertFalse(verify_connection(url="https://ffftgrrererer.com", timeout=12.22))
-        self.assertFalse(verify_connection(url="https://git1svnhsdsgthr.com", timeout=13.33))
-        self.assertFalse(verify_connection(url="https://10.255.255.1", timeout=5))
+        for url in TEST_CASES_TRUE:
+            with self.subTest(url=url):
+                self.assertTrue(verify_connection(url))
 
-if __name__ == '__main__':
+        for url in TEST_CASES_FALSE:
+            with self.subTest(url=url):
+                self.assertFalse(verify_connection(url))
+
+
+if __name__ == "__main__":
     unittest.main()
