@@ -6,11 +6,10 @@
 </p>
 <p align="center">
     <a href="https://badge.fury.io/py/hiddeneye-reborn"><img src="https://badge.fury.io/py/hiddeneye-reborn.svg" alt="PyPI version" height="18"></a>
-    <a href="https://travis-ci.com/github/Open-Security-Group-OSG/HiddenEyeReborn"><img title="Travis CI build" src="https://travis-ci.com/Open-Security-Group-OSG/HiddenEyeReborn.svg?branch=master"></a>
     <a href="https://codecov.io/gh/Open-Security-Group-OSG/HiddenEyeReborn"><img src="https://codecov.io/gh/Open-Security-Group-OSG/HiddenEyeReborn/branch/master/graph/badge.svg" /></a>
     <a href="https://unlicense.org"><img title="The Unlicense" src="https://img.shields.io/badge/license-Unlicense-black.svg"></a>
-    <a href="https://www.codefactor.io/repository/github/open-security-group-osg/hiddeneyereborn"><img src="https://www.codefactor.io/repository/github/open-security-group-osg/hiddeneyereborn/badge" alt="CodeFactor" /></a>
-    <a href="https://www.codacy.com/gh/Open-Security-Group-OSG/HiddenEyeReborn/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Open-Security-Group-OSG/HiddenEyeReborn&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/372e5b4c61764b8f87580cd57eec92b9"/></a>
+    <a href="https://www.codefactor.io/repository/github/d4rks3c-group/hiddeneyereborn"><img src="https://www.codefactor.io/repository/github/d4rks3c-group/hiddeneyereborn/badge" alt="CodeFactor" /></a>
+    <a href="https://app.codacy.com/gh/D4rkS3c-Group/HiddenEyeReborn/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/d360fe89e6c043c6a36f9e314f75fd27"/></a>
     <a href="https://www.python.org/dev/peps/pep-0008/"><img title="PEP8" src="https://img.shields.io/badge/code%20style-pep8-blue.svg"></a>
     <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hiddeneye-reborn">
 </p>
