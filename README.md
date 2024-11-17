@@ -17,6 +17,8 @@
 
 ## Introduction
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6b7d9ee30504c28b91a93837ca88860)](https://app.codacy.com/gh/D4rkS3c-Group/HiddenEyeReborn?utm_source=github.com&utm_medium=referral&utm_content=D4rkS3c-Group/HiddenEyeReborn&utm_campaign=Badge_Grade)
+
 The `HiddenEye: Reborn` tool is a project aimed at exploiting human errors. As my second attempt at creating a comprehensive tool for this purpose, it presently has numerous phishing features. We intend to add more functionalities soon. Keep up with our progress by checking out our [roadmap] (*insert link of roadmap here*) or the Projects Tab on our GitHub page. 
 
 ## Disclaimer
