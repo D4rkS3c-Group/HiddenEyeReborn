@@ -16,19 +16,19 @@
 
 ## Introduction
 
-The `HiddenEye: Reborn` tool is a project aimed at exploiting human errors. As my second attempt at creating a comprehensive tool for this purpose, it presently has numerous phishing features. We intend to add more functionalities soon. Keep up with our progress by checking out our [roadmap] (*insert link of roadmap here*) or the Projects Tab on our GitHub page. 
+The `HiddenEye: Reborn` tool is a project aimed at exploiting human error. As my second attempt at creating a comprehensive tool for this purpose, it presently has numerous phishing features. We intend to add more functionality soon. Keep up with our progress by checking out our [roadmap] (*insert link of roadmap here*) and the Projects Tab on our GitHub page. 
 
 ## Disclaimer
 
-**Please Note**: The utilization of `HiddenEye: Reborn` and its resources lies entirely with the end user. The developers of this tool assume no liability and are not responsible for any misuse or damage resulting from it. Ensure you have explicit written permission from the intended party before conducting any testing, as some actions may be illegal. 
+**Please Note**: The utilization of `HiddenEye: Reborn` and its resources lies entirely with the end user. The developers of this tool assume no liability and are not responsible for any misuse or damage resulting from it. Ensure you have explicit written permission from the intended party before conducting any testing, as some actions may be illegal otherwise. 
 
 ## Installation
 
-You can easily install `HE: RE` on PyPI using pip: 
-```sh
+You can easily install `HE:RE` on PyPI using pip: 
+```bash
 pip install hiddeneye-reborn
 ```
-Just like that, `HE: RE` is ready for use as a terminal command and can also be added as a package to your projects. 
+Just like that, `HE:RE` is ready for use as a terminal command and can also be added as a package to your projects. 
 
 ## Basic Usage
 
