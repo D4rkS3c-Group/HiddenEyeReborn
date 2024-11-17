@@ -42,16 +42,16 @@ Our complete and comprehensive documentation is being compiled and will be avail
 ## FAQ
 
 **Q: Why is the original `HiddenEye` no longer maintained?**  
-A: The original `HiddenEye` was phased out due to bad practices and low quality in the code.  
+A: The original `HiddenEye` was phased out due to bad practices and low quality of the code. Updating and refactoring it could take an enormous amount of time.
 
-**Q: I noticed the original `HiddenEye` had more tunneling options. Why aren't most of them available anymore?**  
-A: As technology evolves, providers adapt. Some of these options are now obsolete or have changed the way they work. But don't worry, we'll always find new ones as they become available. 
+**Q: I've noticed the original `HiddenEye` had more tunneling options. Why aren't most of them available anymore?**  
+A: As technology evolves, providers adapt. Some of these options are now obsolete or have changed the way they work. But don't worry, we'll always find new ones as they become available. If there are tunneling options we are not aware of - feel free to make an Issue with a Feature Request to let up know about it.
 
 **Q: Are there any example uses for this tool?**  
-A: The usage entirely depends on the user. We disclaim liability for any actions taken by users. However, numerous legal uses for this tool include testing employees or colleagues to educate them about potential vulnerabilities, which social engineers could exploit. 
+A: Numerous legal uses for this tool include teaching employees or colleagues about the potential vulnerabilities, which social engineers could exploit. However, the usage of this tool entirely depends on the user, and we disclaim liability for any actions taken. 
 
-**Q: Why are there slow updates from the developers?**   
-A: As an open-source software, the community does not generate revenue. Our developers need to balance their time between financial stability and updating `HE: RE`. If you want to see the software develop further, consider supporting the developers!
+**Q: Why are updates so slow?**   
+A: The community of the HiddenEye does not generate any revenue as it's entirely FOSS. Our developers need to balance their time between financial stability and updating `HE:RE`. If you want to see the software develop faster, consider supporting the developers!
 
 ## Contributing
 
